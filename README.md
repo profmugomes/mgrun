@@ -1,6 +1,6 @@
 # MGRun
 
-[![License](https://img.shields.io/badge/license-PolyForm%20Perimeter%201.0.1-5351FB)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-MIT-5351FB)](LICENSE.md)
 
 **MGRun** é um wrapper leve e multiplataforma em Go para execução de comandos do sistema, projetado para simplificar o uso de `exec` com **captura de saída em tempo real**, **callbacks** e **controle seguro de concorrência**.
 
@@ -89,14 +89,14 @@ func main() {
 
 ## 🧩 Compatibilidade
 
-* Go 1.26.5+
+* Go 1.27.2+
 * Linux, Windows ou macOS
 
 ---
 
 ## 👤 Autor
 
-**Murilo Gomes Julio**
+**Murilo Gomes**
 
 🔗 [https://www.profmugomes.com.br](https://www.profmugomes.com.br)
 
@@ -106,26 +106,8 @@ func main() {
 
 ## License
 
-Copyright (c) 2025-2026 Murilo Gomes Julio. All Rights Reserved.
+Copyright (c) 2025-2026 Murilo Gomes <profmugomes.com.br>
 
-This project is licensed under the PolyForm Perimeter License 1.0.1.
+Licensed under the [MIT](https://github.com/profmugomes/mgrun/blob/main/LICENSE) license.
 
-### Summary
-
-This software is available for commercial and noncommercial use, subject to the terms of the PolyForm Perimeter License 1.0.1.
-
-You may:
-
-* ✔ Use the software for commercial and noncommercial purposes.
-* ✔ Inspect and study the source code.
-* ✔ Modify the software.
-* ✔ Create derivative works based on the software.
-* ✔ Redistribute the software and permitted modifications.
-
-You may not:
-
-* ✖ Provide a product that competes with the software.
-
-See the full license terms at LICENSE.md.
-
-This summary is provided for convenience only and does not replace or modify the full license terms.
+All contributions to the MGRun are subject to this license.
